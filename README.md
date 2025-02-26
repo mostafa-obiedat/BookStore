@@ -15,8 +15,3 @@ Welcome to the Book List App! This app allows users to manage a list of books, i
 - **pgAdmin 4**: Database management tool for PostgreSQL to store and manage data
 - **Node.js**: Backend for handling data requests
 
-## Contact 💬
-**Feel free to reach out if you have any questions or suggestions!**
-
-- **GitHub: AlaaSa3di**
-- **Email: Alaa.saadi95@gmail.com ✉️**
