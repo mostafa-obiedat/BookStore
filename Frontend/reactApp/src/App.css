@@ -1,0 +1,75 @@
+.App {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.App h1 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+}
+
+.book-list {
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.book-list li {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.book-list li:hover {
+  transform: scale(1.02);
+}
+
+.book-list h3 {
+  color: #007bff;
+  margin-bottom: 5px;
+}
+
+.book-list p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.book-list button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s ease-in-out;
+}
+
+.book-list button:first-child {
+  background-color: #ffc107;
+  color: white;
+}
+
+.book-list button:first-child:hover {
+  background-color: #e0a800;
+}
+
+.book-list button:last-child {
+  background-color: #dc3545;
+  color: white;
+}
+
+.book-list button:last-child:hover {
+  background-color: #b02a37;
+}
